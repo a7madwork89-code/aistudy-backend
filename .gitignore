@@ -26,3 +26,5 @@ dist/
 build/
 
 src/config/serviceAccountKey.json
+.env
+src/config/serviceAccountKey.json

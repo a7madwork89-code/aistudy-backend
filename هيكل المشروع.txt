@@ -1,0 +1,18 @@
+aistudy-backend/
+├── src/
+│   ├── config/
+│   │   ├── firebase.js
+│   │   └── gemini.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── routes/
+│   │   └── ai.js
+│   ├── controllers/
+│   │   └── aiController.js
+│   ├── utils/
+│   │   └── helpers.js
+│   └── server.js
+├── .env
+├── .gitignore
+├── package.json
+└── README.md

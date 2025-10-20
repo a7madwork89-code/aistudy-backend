@@ -1,5 +1,8 @@
-// Import the Express app
-import app from '../src/server.js';
+import app from '../lib/app.js';
 
-// Export for Vercel Serverless
-export default app;
+export default async function handler(req, res) {
+  // Set the path for routing
+  req.url = req.url.replace(/^\/api/, '') || '/';
+  
+  return app(req, res);
+}

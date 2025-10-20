@@ -16,3 +16,7 @@ aistudy-backend/
 ├── .gitignore
 ├── package.json
 └── README.md
+
+
+https://vercel.com/ahmad-s-projects-c7f529c2/aistudy-backend
+aistudy-backend.vercel.app

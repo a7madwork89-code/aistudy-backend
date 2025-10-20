@@ -1,0 +1,1 @@
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("C:\Users\2024\OneDrive\Desktop\aistudy-backend\src\config\serviceAccountKey.json")) > "C:\Users\2024\OneDrive\Desktop\aistudy-backend\src\config\serviceAccountKey.b64.txt"
